@@ -3,32 +3,28 @@
 body {
     font-family: 'Noto Sans KR', sans-serif;
     background-color: #FFFFFF;
-    margin: 0px;
-    padding: 0px;
+    
+	margin-left: auto;
+    margin-right: auto;
 }
 
-article {
-	width: 950px;
+.container {
 	margin-left: auto;
     margin-right: auto;
     color: #FFFFFF;
-    background-color: #151E29;
+    background-color: #FFFFFF;
+    board-color: #FEF8FF;
+    border-width: 15px;
+    border: 15px solid;
 }
 
-article div {
-	width: 950px;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
+.row {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
-h1 {
-	margin-top: 55px;
-}
-
-h2 {
-	margin-top: 22px;
-}
 
 img {
 	width: 100%;
@@ -38,8 +34,17 @@ img {
 }
 
 .btns {
-	margin-top: 35px;
-	margin-bottom: 35px;
+	width: 100%;
+	max-width: 950px;
+	
+	margin: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+    background-color: #221A28;
+/*     background-image: url("image_105.jpg"); */
 }
 
 .btn_off {
@@ -72,3 +77,11 @@ img {
 	font-weight: bold;
 	font-size: 25px;
 }
+
+.company_list {
+	color: #000000 !important;
+	background-color: #FFFFFF !important;
+	border-width: 0px !important;
+    border: 0px solid !important;
+}
+
