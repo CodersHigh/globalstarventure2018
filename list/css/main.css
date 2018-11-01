@@ -4,6 +4,15 @@
   margin-right: auto;
 }
 
+.tuple {
+  color: #353148;
+}
+
+li {
+  padding-top: 4px;
+  padding-bottom: 3px;
+}
+
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
@@ -208,12 +217,12 @@ tbody tr:hover {
 }
 
 .column3 {
-  width: 245px;
+  width: 145px;
   /* text-align: center; */
 }
 
 .column4 {
-  width: 602px;
+  width: 702px;
   text-align: left;
   padding-right: 62px;
   padding-top: 5px;
@@ -236,7 +245,7 @@ tbody tr:hover {
     padding: 37px 0;
   }
   table tbody tr td {
-    padding-left: 40% !important;
+    padding-left: 25% !important;
     margin-bottom: 24px;
   }
   table tbody tr td:last-child {
@@ -249,8 +258,8 @@ tbody tr:hover {
     line-height: 1.2;
     font-weight: unset;
     position: absolute;
-    width: 40%;
-    left: 30px;
+    width: 25%;
+    left: 20px;
     top: 0;
   }
   table tbody tr td:nth-child(1):before {
