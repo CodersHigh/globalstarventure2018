@@ -13,7 +13,7 @@ body {
     margin-right: auto;
     color: #FFFFFF;
     background-color: #FFFFFF;
-    board-color: #FEF8FF;
+    border-color: #FFFFFF;
     border-width: 15px;
     border: 15px solid;
 }
